@@ -16,7 +16,8 @@ B -- return --> E
 E[Quan_Loss]
 ```
 # How to use
-1. train the model with the data:
+## 1. train the model with the data:
+
 
 
 > step1: video to image
@@ -26,9 +27,10 @@ E[Quan_Loss]
 
 
 > step2: input the data and train the model
-> `python training_vqgan1.py --dataset-path DATASET_PATH --epochs NUM_OF_EPOCH`
+`python training_vqgan1.py --dataset-path DATASET_PATH --epochs NUM_OF_EPOCH`
 
-2. reconstruct the input video with pretrained model
+
+## 2. reconstruct the input video with pretrained model
 
 > DATASET_PATH: the path to the processed data in 1.step1
 
