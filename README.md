@@ -2,6 +2,16 @@
 To reproduce **Reparo: Loss-Resilient Generative Codec for Video Conferencing**.
 (https://arxiv.org/abs/2305.14135)
 
+# Structure
+```mermaid
+graph LR
+A(Encoder) -- map to --> B(Codebook)
+M(Input)-->A
+B --> C(Decoder)
+C --> D(Output)
+B -- return --> E
+E[Quan_Loss]
+```
 # How to use
 1. train the model with the data:
 
