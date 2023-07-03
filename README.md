@@ -21,9 +21,13 @@ To reproduce **Reparo: Loss-Resilient Generative Codec for Video Conferencing**.
 
  `python video_reconstruct.py --dataset-path DATASET_PATH --num-images NUM_OF_IMAGE --checkpoint-path CHECKPOINT/XXX.pt --image-output IMAGE_OUTPUT_DIR --video-output VIDEO_OUTPUT_DIR`
 
-# Output example
+# Sample Input & Output
 
+> INPUT: 
+see wave.mp4
 
+> OUPUT: 
+> see testvideo2.avi
 
 # Citatation
 
