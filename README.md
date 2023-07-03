@@ -2,6 +2,9 @@
 To reproduce **Reparo: Loss-Resilient Generative Codec for Video Conferencing**.
 (https://arxiv.org/abs/2305.14135)
 
+# Progress
+implement Part 1: Codec
+
 # Structure
 ```mermaid
 graph LR
