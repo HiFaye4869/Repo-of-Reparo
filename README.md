@@ -36,12 +36,11 @@ E[Quan_Loss]
  `python video_reconstruct.py --dataset-path DATASET_PATH --num-images NUM_OF_IMAGE --checkpoint-path CHECKPOINT/XXX.pt --image-output IMAGE_OUTPUT_DIR --video-output VIDEO_OUTPUT_DIR`
 
 # Sample Input & Output
-
 > INPUT: 
-see wave.mp4
+> Input & Output/wave.mp4
 
 > OUPUT: 
-> see testvideo2.avi
+> Input & Output/testvideo2.avi
 
 # Citatation
 
