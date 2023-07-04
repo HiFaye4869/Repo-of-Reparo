@@ -12,7 +12,7 @@ tokenizer(VQGAN) + bitcontroller+ packagizer + loss recovery module
 # Progress
 Implement Part 1: Tokenizer/Codec(VQGAN)
 
-# Structure
+# Structure and explanations
 ```mermaid
 graph LR
 A((Encoder)) -- map to --> B((Codebook))--return-->F[token]-->C
@@ -21,6 +21,27 @@ C((decoder)) --> D[Output]
 B -- return --> E
 E[Quan_Loss]
 ```
+
+**lpips**: get pretrained cnn network (VGG16)
+
+mingpt: transformer
+
+encoder: encode
+
+decoder: decode
+
+codebook: quantize the vector (map it to the closest vector); return the quantized vector and the encoding index
+
+utils: load and process the data for future use
+
+vqgan: pull the encoder, codebook and decoder together to build a VQGAN model; return the codebook mapping, the encoding index and the loss; calculate and return $\lambda$ (balance the contribution of the perceptual loss and the GAN loss)
+
+vtoi: transform videos to images
+
+video_reconstruct: reconstruct the video
+
+train_vqgan1: train and resume the model
+
 # How to use
 ## 1. train the model with the data:
 
