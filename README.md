@@ -8,10 +8,9 @@ implement Part 1: Codec
 # Structure
 ```mermaid
 graph LR
-A(Encoder) -- map to --> B(Codebook)
-M(Input)-->A
-B --> C(Decoder)
-C --> D(Output)
+A((Encoder)) -- map to --> B((Codebook))--return-->F[token]-->C
+M[Input]-->A
+C((decoder)) --> D[Output]
 B -- return --> E
 E[Quan_Loss]
 ```
