@@ -3,14 +3,14 @@ To reproduce **Reparo: Loss-Resilient Generative Codec for Video Conferencing**.
 (https://arxiv.org/abs/2305.14135)
 ## Introduction to Reparo
 
-Proposed innovation: 
-> adapt the generative network to resolve the problem of video freeze caused by package loss and improve the video quality in real-time video conferrencing
+**Proposed Innovation:**  	
+adapt the generative network to resolve the problem of video freeze caused by package loss and improve the video quality in real-time video conferrencing
 	
-Network Structure: 
-> tokenizer(VQGAN) + bitcontroller+ packagizer + loss recovery module
+**Network Structure:**  	
+tokenizer(VQGAN) + bitcontroller+ packagizer + loss recovery module
  
 # Progress
-implement Part 1: Tokenizer/Codec(VQGAN)
+Implement Part 1: Tokenizer/Codec(VQGAN)
 
 # Structure
 ```mermaid
