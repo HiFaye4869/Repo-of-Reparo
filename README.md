@@ -15,8 +15,9 @@ Implement Part 1: Tokenizer/Codec(VQGAN)
 # Structure and explanations
 ```mermaid
 graph LR
+L((Data\nLoader))-->A
 A((Encoder)) -- map to --> B((Codebook))--return-->F[token]-->C
-M[Input]-->A
+M[Input]-->L
 C((decoder)) --> D[Output]
 B -- return --> E
 E[Quan_Loss]
